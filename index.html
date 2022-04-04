@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <!-- (A) TITLE + CHARSET + DESCRIPTION -->
-    <title>Barebones PWA</title>
+    <title>To buy or Not to buy</title>
     <meta charset="utf-8">
-    <meta name="description" content="A barebones PWA page">
+    <meta name="description" content="a simple and straightforward purchase evaluator">
 
     <!-- (B) VIEWPORT (ALLOW ZOOM IN, NOT OUT) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
@@ -34,7 +34,25 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
   </head>
-  <body>
-    It Works!
-  </body>
+  <body><center>
+  
+  <h1>To buy or Not to buy</h1>
+  <p>a simple and straightforward purchase evaluator</p>
+  
+	  <span id="price"></span><br>
+	  <span id="period"></span>
+	  <span id="life"></span><br>
+	  
+	  <!--
+		<div>
+			<button type="button" class="controls" onClick="price()">Price</button>
+			<button type="button" class="controls" onClick="period()">Period</button>
+			<button type="button" class="controls" onClick="life()">Usefulness</button>
+		</div>
+	-->
+	
+		<button type="button" class="controls" onClick="dataentry()">Enter Data</button>
+		<button type="button" class="controls" onClick="calculations()">Calculate</button>
+
+  </center></body>
 </html>

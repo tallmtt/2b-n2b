@@ -1,5 +1,5 @@
 // (A) FILES TO CACHE
-const cName = "demo-pwa",
+const cName = "2b-n2b",
 cFiles = [
   "index.html",
   "style.css",
