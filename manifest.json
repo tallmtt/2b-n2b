@@ -1,6 +1,7 @@
 {
   "short_name": "2b-n2b",
-  "name": "To buy or not to buy",
+  "version": "0.9",
+  "name": "To buy or Not to buy",
   "icons": [{
     "src": "favicon.png",
     "sizes": "64x64",

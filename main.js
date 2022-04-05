@@ -71,7 +71,7 @@ function calculations() {
     timeunits = document.getElementById('timeunits').value;
     
 //    labels();
-//	data();
+//	  data();
     
 	// Actual chart using chart.js
     new Chart(document.getElementById("costovertime"), {

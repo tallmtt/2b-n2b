@@ -30,3 +30,7 @@ For development testing:
 - [X] Make homepage with forms
 - [X] Do javascript calculations with lists/variables
 - [ ] change icons
+
+# Credits
+
+- Icon: Photo by mohamed_hassan from PxHere: https://pxhere.com/en/photo/1446791?utm_content=clipUser&utm_medium=referral&utm_source=pxhere
