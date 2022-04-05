@@ -27,6 +27,6 @@ For development testing:
 
 ## To Do
 
-- [ ] Make homepage with forms
-- [ ] Do javascript calculations with lists/variables
+- [X] Make homepage with forms
+- [X] Do javascript calculations with lists/variables
 - [ ] change icons
