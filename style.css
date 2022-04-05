@@ -1,5 +1,33 @@
 * { font-family: arial, sans-serif; }
+
 body {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
+}
+
+h1 {
+	font-size: 5 em;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.data {
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.illustrations {
+	text-align: center;
+}
+
+canvas{
+    width: 80% !important;
+/*    height: 700px !important; */
+    margin: 0 auto;
 }

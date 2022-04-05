@@ -3,7 +3,8 @@ const cName = "2b-n2b",
 cFiles = [
   "index.html",
   "style.css",
-  "main.js"
+  "main.js",
+  'Chart.min.js'
 ];
 
 // (B) CREATE/INSTALL CACHE
