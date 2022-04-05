@@ -23,7 +23,8 @@ function dataentry() {
     // 		alert(period);
         let period2 = prompt("How many time periods (months/days/years)?", period);
         localStorage.period = period2;
-        time = '<p><b>Time period:</b> ' + period2 + ' <select id="timeunits"><option value = "Month" selected>months</option><option value = "Day">days</option><option value = "Year">years</option></select></p>'
+//        time = '<p><b>Time period:</b> ' + period2 + ' <select id="timeunits"><option value = "Month" selected>months</option><option value = "Day">days</option><option value = "Year">years</option></select></p>'
+		time = '<p><b>Time period:</b> ' + period + ' time periods</p>'
         document.getElementById('period').innerHTML = time;
     } else {
         period();
@@ -52,7 +53,8 @@ function price() {
 function period() {
     let period = prompt("How many time periods (months/days/years)?");
     localStorage.period = period;
-    time = '<p><b>Time period:</b> ' + period + ' <select name = "timeunits"><option value = "months" selected>months</option><option value = "days">days</option><option value = "years">years</option></select></p>'
+//    time = '<p><b>Time period:</b> ' + period + ' <select name = "timeunits"><option value = "months" selected>months</option><option value = "days">days</option><option value = "years">years</option></select></p>'
+    time = '<p><b>Time period:</b> ' + period + ' time periods</p>'
     document.getElementById('period').innerHTML = time;
 }
 
@@ -67,8 +69,13 @@ function calculations() {
 
     price = localStorage.price;
     period = localStorage.period;
-    uses = localStorage.uses;   
-    timeunits = document.getElementById('timeunits').value;
+    uses = localStorage.uses;
+	
+//	if (document.getElementById('timeunits') {
+//		timeunits = document.getElementById('timeunits').value;
+//	} else {
+		timeunits = "Time Periods"
+//	}
     
 //    labels();
 //	  data();
@@ -231,4 +238,10 @@ function eightytwenty() {
  		}
    }
     return eighty;
+}
+
+function resetpage() {
+	localStorage.price = ''
+	localStorage.removeItem('period');
+	localStorage.removeItem('uses');
 }

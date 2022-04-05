@@ -1,8 +1,8 @@
 * { font-family: arial, sans-serif; }
 
 body {
-  background: #fff;
-  color: #000;
+  background: #F0FFFF;
+  color: #483C32;
 }
 
 h1 {
@@ -19,7 +19,16 @@ p {
 }
 
 .buttons {
-	text-align: center;
+  background-color: #3e95cd; /* Green */
+  border: none;
+  border-radius: 12px;
+  color: #F0FFFF;
+  padding: 15px 32px;
+  margin:5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .illustrations {

@@ -1,8 +1,11 @@
 # To buy or not to buy - a simple and straightforward purchase evaluator 
 
+For development AND testing: 
+- $ python3 -m http.server
+
 ## The Idea: PWA Price Planner with illustrations using chart.js
 
-## References:
+### References:
 - https://www.chartjs.org/docs/latest/
 - https://www.chartjs.org/
 - https://www.w3schools.com/ai/ai_chartjs.asp
@@ -11,25 +14,20 @@
 
 ## Layout
 
-For development testing: 
-- $ python3 -m http.server
-
 ### Inputs:
-- Price
-- Time periods
-- Time units (months)
-- Use expectations/time period
-  - Expected length of ownership
+- [X] Price
+- [X] Time periods
+- Time units (months) ??
+- [X] Use expectations/time period
 
 ### Outputs:
-- Chart: price/period
-- Chart: price/use over expected ownership
+- [X] Chart: price/period
+- [X] Chart: price/use over expected ownership
 
 ## To Do
 
-- [X] Make homepage with forms
-- [X] Do javascript calculations with lists/variables
-- [ ] change icons
+- [ ] Clear data button?
+- [ ] Selection of time period (month/day/year)
 
 # Credits
 
