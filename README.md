@@ -11,6 +11,9 @@
 
 ## Layout
 
+For development testing: 
+- $ python3 -m http.server
+
 ### Inputs:
 - Price
 - Time periods
