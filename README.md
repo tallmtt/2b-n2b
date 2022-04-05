@@ -26,7 +26,7 @@ For development AND testing:
 
 ## To Do
 
-- [ ] Clear data button?
+- [X] Clear data button
 - [ ] Selection of time period (month/day/year)
 
 # Credits

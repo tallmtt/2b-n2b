@@ -241,7 +241,8 @@ function eightytwenty() {
 }
 
 function resetpage() {
-	localStorage.price = ''
-	localStorage.removeItem('period');
-	localStorage.removeItem('uses');
+	window.Location.reload();
+//	localStorage.price = ''
+//	localStorage.removeItem('period');
+//	localStorage.removeItem('uses');
 }
