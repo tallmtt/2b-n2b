@@ -12,7 +12,7 @@
   }],
   "start_url": "index.html",
   "scope": "/",
-  "background_color": "white",
-  "theme_color": "white",
+  "background_color": "#F0FFFF",
+  "theme_color": "#F0FFFF",
   "display": "standalone"
 }
