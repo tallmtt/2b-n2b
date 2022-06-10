@@ -4,17 +4,21 @@ if ("serviceWorker" in navigator) {
 
 // Variables and Lists
 
+function present() {
+//     document.querySelector('#databutton').style.display = 'none'
+    document.querySelector('#calcbutton').style.display = 'none'
+}
 
 function dataentry() {
     // 	Check what variables exist and calculations needed to do
     if (localStorage.getItem('price')) {
         price = localStorage.price;
-    // 		alert(price);
         let price2 = prompt("What is the price/cost?", price);
         localStorage.price = price2;
         mprice = '<p><b>Price:</b> $' + price2 + '</p>'
         document.getElementById("price").innerHTML = mprice;
     } else {
+//     price();
         price();
     }
 
@@ -40,6 +44,9 @@ function dataentry() {
     } else {
         uses();
     }
+
+    document.querySelector('#databutton').style.display = 'none'
+    document.querySelector('#calcbutton').style.display = 'block'
 
 };
 
@@ -166,6 +173,8 @@ function calculations() {
         }
     });
 
+    resetpage();
+    document.querySelector('#calcbutton').style.display = 'none'
 
 }
 
@@ -241,8 +250,10 @@ function eightytwenty() {
 }
 
 function resetpage() {
-	window.Location.reload();
-//	localStorage.price = ''
-//	localStorage.removeItem('period');
-//	localStorage.removeItem('uses');
+// 	window.Location.reload();
+// 	localStorage.price = '';
+    localStorage.removeItem('price');
+	localStorage.removeItem('period');
+    localStorage.removeItem('uses');
+// 	localStorage.removeItem('uses');
 }

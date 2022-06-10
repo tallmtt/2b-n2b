@@ -40,9 +40,9 @@
 	<!-- Icon Photo by mohamed_hassan from PxHere: https://pxhere.com/en/photo/1446791?utm_content=clipUser&utm_medium=referral&utm_source=pxhere -->
 	
   </head>
-  <body>  
+  <body onload="present()">  
   <h1>To buy or Not to buy</h1>
-  <p>a simple and straightforward purchase evaluator</p>
+  <p>a simple and straightforward purchase evaluator<br> (Cost/Use)</p>
   
 	<div class='data'>  
 	  <span id="price"></span>
@@ -51,10 +51,16 @@
 	</div>
 
 	<div class='data'>
+	<div id='databutton'>
 		<button type="button" class='buttons' onClick="dataentry()">Enter Data</button>
+    </div>
+    <div id='calcbutton'>
 		<button type="button" class='buttons' onClick="calculations()">Calculate</button> <!--<hr>-->
 	</div>
-	<center><input type="button" value = "Clear" onclick="history.go(0)" /></center><br>
+	</div>
+	<br>
+	<center><input type="button" value = "Restart" onclick="history.go(0)" /></center><br>
+<!-- 	<center><input type="button" value = "Reset" onclick="resetpage()" /></center><br> -->
 		
 	<div class='illustrations'>
 	<canvas id="costovertime" width="600" height="400"></canvas>
